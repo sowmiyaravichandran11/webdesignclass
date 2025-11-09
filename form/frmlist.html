@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head> <title>FORM</title></head>
+<body>
+	<ol typer="A">
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>JAVA</li>
+	</ol>
+	<form action="" method="get">
+	<fieldset>
+	<legend>INFORMATION</legend>
+	<p>
+	<label for="firstname">FirstName:</label>
+	<input type="text" name="firstname" id="firstname" placeholder="Firstname" autocomplete="on" required>
+</p>
+<p>
+<label for="password">Password:</label>
+<input type="password" name="password" id="password" placeholder="ur password" required>
+</p>
+<p>
+<label for="decade">decade:</label>
+<input type="number" name="fav decade" id="fav decade" min="1960" max="2020" step="10" required>
+</p>
+<p>
+<label for="Phonenumber">Phonenumber:</label>
+<input type="tel" name="phone" id="phone" placeholder="919999999999" required>
+</p>
+</fieldset>
+<fieldset>
+<legend>CODEINFORMATION</legend>
+<p>
+<label for="code">code:</label>
+<select name="code"id="code">
+<optgroup label="script">
+<option value="html">HTML</option>
+<option vale="css">CSS</option>
+</optgroup>
+<optgroup label="coding">
+<option value="java">JAVA</option>
+<option value="python" selected>PYTHON</option>
+</optgroup>
+</select>
+</p>
+<p>
+<label for="code">CODEMULTIPLE:</label>
+<select name="code" id="code" multiplesize="5">
+<optgroup label="script">
+<option value="html">HTML</option>
+<option value="css">CSS</option>
+</optgroup>
+</select>
+</p>
+<legend>RADIO</legend>
+<p>
+<label for="madurai">MADURAI</label>
+<input type="radio" name="city" id="madurai" value="madurai>
+</p>
+<p>
+<input type="radio" name="city" id="trichy" value="trichy">
+<label for="Trichy">TRICHY</label>
+</p>
+<p>
+<input type="radio" name="city" id="coimbatore" value="coimbatore">
+<label for="coimbatore">COIMBATORE</label>
+</p>
+</fieldset>
+<fieldset>
+<p>
+
+<input type="checkbox" name="city" id="madurai" value="madurai">
+<label for="madurai">MADURAI</label>
+<input type="checkbox" name="city" id="trichy" value="trichy">
+<label for="madurai">MADURAI</label>
+</p>
+
+</fieldset>
+</form>
+</body>
+</html>
